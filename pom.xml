@@ -14,6 +14,10 @@
     <build>
         <finalName>myansible1</finalName>
     </build>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
     <!-- Profile to run jetty, so the tomcat jars are included in the bundle. They are not included by default -->
     <profiles>
@@ -133,6 +137,7 @@
         </dependency>
 
     </dependencies>
+
 
 
 </project>
