@@ -10,7 +10,7 @@
               <h:panelGrid columns="2">
                 <h:outputLabel for="name" value="Please enter your name" />
                 <h:inputText id="name" value="#{helloWorld.name}" required="true"/>
-                <h:commandButton value="Kiss me" action="#{helloWorld.send}"/>
+                <h:commandButton value="Wake me" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
               </h:panelGrid>
             </h:form>
